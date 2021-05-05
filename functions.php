@@ -6,16 +6,16 @@
 		add_theme_support('custom-logo');
 	}
 
-	add_action('after_setup_theme', 'tD_theme_support')
+	add_action('after_setup_theme', 'tD_theme_support');
 	
 
 	function tD_menus(){
 		$locations = array(
 			'primary' => "Desktop Primary Left Sidebar",
 			'footer' => "Footer Menu Items"
-		);
+		); 
 
-		register_nav_menu('init', 'tD_menus')
+		register_nav_menu('init', 'tD_menus');
 	}
 
 	
