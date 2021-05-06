@@ -7,7 +7,18 @@
 						<div class="comments-header">
 
 							<h2 class="comment-reply-title">
-								3 replies on “Hello world!” </h2><!-- .comments-title -->
+
+							<?php
+								if(! have_comments()){
+									"Leave a Comment";
+								}
+								else{
+									get_comments_counts()."comments";
+								}
+								?>
+								
+						
+						</h2><!-- .comments-title -->
 
 						</div><!-- .comments-header -->
 
