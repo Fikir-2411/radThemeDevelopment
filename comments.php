@@ -13,7 +13,7 @@
 									echo "Leave a Comment";
 								}
 								else{
-									echo get_comments_counts()."comments";
+									echo get_comments_number()."comments";
 								}
 								?>
 								
