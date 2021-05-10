@@ -44,14 +44,20 @@
 function td_widget_areas(){
 	register_sidebar(
 		array(
-			'before_title' => '';
-			'after_title' => '';
-			'before_widget' => '';
-			'after_widget' => '';
+			'before_title' => '',
+			'after_title' => '',
+			'before_widget' => '',
+			'after_widget' => '',
 		),
-		array()
+		array(
+			'name' => 'sidebar area',
+			'id' => 'sidebar-1',
+			'description' => 'Sidebar Widget Area',
+
+
+		)
 	);
 
 }
-
+add_action('widgets_init' , 'td_widget_areas')
 ?>
