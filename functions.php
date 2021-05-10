@@ -41,6 +41,17 @@
 	}
 	
 	add_action('wp_enqueue_scripts', 'tD_register_scripts');
+function td_widget_areas(){
+	register_sidebar(
+		array(
+			'before_title' => '';
+			'after_title' => '';
+			'before_widget' => '';
+			'after_widget' => '';
+		),
+		array()
+	);
 
+}
 
 ?>
