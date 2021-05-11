@@ -46,10 +46,8 @@ function td_widget_areas(){
 		array(
 			'before_title' => '',
 			'after_title' => '',
-			'before_widget' => '',
-			'after_widget' => '',
-		),
-		array(
+			'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
+			'after_widget' => '</ul>',
 			'name' => 'sidebar area',
 			'id' => 'sidebar-1',
 			'description' => 'Sidebar Widget Area',
@@ -57,6 +55,20 @@ function td_widget_areas(){
 
 		)
 	);
+	register_sidebar(
+		array(
+			'before_title' => '',
+			'after_title' => '',
+			'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
+			'after_widget' => '</ul>',
+			'name' => 'footer area',
+			'id' => 'footer -1',
+			'description' => 'footer Widget Area',
+
+
+		)
+	);
+
 
 }
 add_action('widgets_init' , 'td_widget_areas')
