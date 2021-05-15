@@ -59,7 +59,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --font-normal: 1em;
   --font-small: 0.8125rem;
   /* Sidebar */
-  --sidebar-width: 280px;
+  --sidebar-width: 200px;
   --content-max-width: 860px;
 }
 

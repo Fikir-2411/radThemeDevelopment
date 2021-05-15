@@ -16,8 +16,10 @@
 			'footer' => "Footer Menu Items"
 		); 
 
-		register_nav_menu('init', 'tD_menus');
+		register_nav_menus($locations);
 	}
+
+	add_action('init', 'tD_menus');
 
 	
 	function tD_register_styles(){
@@ -41,9 +43,9 @@
 	}
 	
 	add_action('wp_enqueue_scripts', 'tD_register_scripts');
-function td_widget_areas(){
-	register_sidebar(
-		array(
+	function td_widget_areas(){
+		register_sidebar(
+			array(
 			'before_title' => '',
 			'after_title' => '',
 			'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
