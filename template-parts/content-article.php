@@ -11,7 +11,14 @@
         </header>
 <?php
 the_content();
+previous_post_link();
 ?>
+
+<div class="next-post">
+    <?php next_post_link();
+
+?>
+</div>
 
 <?php
 comments_template();
