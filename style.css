@@ -25,7 +25,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #6f42c1;
+  --purple: #4723d9;
   --pink: #ee3577;
   --red: #dc3545;
   --orange: #f68e62;
@@ -36,7 +36,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --white: #fff;
   --gray: #767575;
   --gray-dark: #434242;
-  --primary: #6f42c1;
+  --primary: #4723d9;
   --secondary: #4f4f4f;
   --success: #28a745;
   --info: #17a2b8;
@@ -120,20 +120,22 @@ h6 {
   background: var(--dark) !important;
 }
 
-.header {
+/* .header {
   position: fixed;
   left: 0;
   top: 0;
-  height: 100vh;
-  width: var(--sidebar-width);
+  height: 10vh;
+  width: 100vw;
   background: var(--primary);
   color: #fff;
-}
+} 
+*/
 .header .site-title {
-  color: var(--white);
+  color: var(--blue);
   font-size: 1.2em;
   display: block;
 }
+/*
 
 .header .btn-primary {
   background: rgba(0, 0, 0, 0.3);
@@ -185,11 +187,13 @@ h6 {
 .header .nav-item a:hover {
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.6);
-}
-.logo {
+} */
+/* .logo {
   width: 78px;
-}
-.social-list a {
+  border-radius: 50%;
+  margin-left: 0;
+} */
+/* .social-list a {
   width: 32px;
   height: 32px;
   padding-top: 5px;
@@ -198,15 +202,15 @@ h6 {
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
   background-color: #fff;
-}
+} */
 
-.social-list a:hover {
+/* .social-list a:hover {
   color: var(--secondary);
   background-color: rgba(255, 255, 255, 0.8);
-}
+} */
 
 .main-wrapper {
-  margin-left: var(--sidebar-width);
+  /* margin-left: var(--sidebar-width); */
   background: #fff;
 }
 
@@ -218,6 +222,7 @@ h6 {
   top: 0;
   z-index: 9999;
   transition: all 0.2s;
+  background-color: #f7f6fb;
 }
 .sticky {
   padding: 1em 0 !important;
@@ -235,7 +240,7 @@ h6 {
 .footer a {
   color: #fff;
 }
-.gradient {
+/* .gradient {
   background: rgb(43, 43, 43);
   background: linear-gradient(
     151deg,
@@ -243,7 +248,7 @@ h6 {
     var(--pink) 35%,
     var(--primary) 100%
   ) !important;
-}
+} */
 .content .post .title {
   font-size: 1.275rem;
 }
