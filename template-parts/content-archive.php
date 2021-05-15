@@ -15,6 +15,9 @@
                             </div>
 						    <a class="more-link" href="<?php the_permalink(); ?>">Read more &rarr;</a>
 					    </div><!--//media-body-->
+						<div class="col-lg-3">
+		<?php get_sidebar(); ?>
+	</div>
 				    </div><!--//media-->
 			    </div>
 

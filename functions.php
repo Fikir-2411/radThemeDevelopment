@@ -64,7 +64,7 @@
 			'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
 			'after_widget' => '</ul>',
 			'name' => 'footer area',
-			'id' => 'footer -1',
+			'id' => 'footer-1',
 			'description' => 'footer Widget Area',
 
 
