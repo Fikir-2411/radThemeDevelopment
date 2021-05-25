@@ -126,7 +126,7 @@
     
     </div>
     <?php 
-		wp_footer();
+		wp_footer();//footer update
 	?>
     
     <!-- Bootstrap Javascript -->          	
