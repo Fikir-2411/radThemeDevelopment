@@ -40,5 +40,8 @@
 			 <?php get_sidebar();?>
 		 </aside>
 	 </div>
+	 </main>
 
+
+<?php get_footer() ?>
        
