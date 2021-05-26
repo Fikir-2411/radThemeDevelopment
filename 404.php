@@ -15,7 +15,11 @@
 get_header();
 ?>
 
+	<head>
+		<style>
 	
+		</style>
+	</head>
 
 	<main id="primary" class="site-main">
 
