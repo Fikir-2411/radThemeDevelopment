@@ -23,7 +23,7 @@
 		
         
 	    <nav class="navbar navbar-expand-lg navbar-light" >
-		<a class="navbar-brand" href="<?php ">
+		<a class="navbar-brand" href="<?php ?>">
 			<?php 
 				if(function_exists('the_custom_logo')){
 					$custom_logo_id = get_theme_mod('custom_logo');
